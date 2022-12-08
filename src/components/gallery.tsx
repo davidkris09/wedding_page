@@ -3,7 +3,7 @@ import {Images} from '../images/gallery'
 
 export const Gallery: React.FC = () => {
   return (
-    <GalleryDiv>
+    <GalleryDiv className='galleryDiv'>
         <GalleryTitle>OUR - WEDDING - GALLERY</GalleryTitle>
         <GalleryImgDiv>
           <GalleryImgUl>

@@ -1,5 +1,6 @@
 import { 
-  ContentUs, 
+  ContentUs,
+  TitleDiv, 
   Title, 
   Years, 
   TitleStoryLeftSide, 
@@ -16,7 +17,9 @@ const Timeline = () => {
   return (
     <>
       <ContentUs>
-          <Title>LOVE - STORY - TIMELINE</Title>
+          <TitleDiv>
+            <Title>LOVE - STORY - TIMELINE</Title>
+          </TitleDiv>
           <Container className="containerTimeline">
             <Row className="justify-content-md-center rowStoryLine">
               <Col xs lg="3">

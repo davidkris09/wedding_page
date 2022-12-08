@@ -9,11 +9,17 @@ export const ContentUs = styled.div`
     z-index: 1;
 `
 
+export const TitleDiv = styled.div`
+    background-image: url('../images/flower.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+`
+
 export const Title = styled.h2`
     text-align: center;
     font-family: Constantia;
     color: #5b5b5b;
-    height: 100px;
+    height: 80px;
 `
 
 export const Years = styled.label`

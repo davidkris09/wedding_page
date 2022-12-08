@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { device } from "../assets/device";
 
 export const GalleryDiv = styled.div`
     width: 80%;
