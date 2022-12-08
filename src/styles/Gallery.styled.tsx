@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const GalleryDiv = styled.div`
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
     flex-direction: column;
 `
 
